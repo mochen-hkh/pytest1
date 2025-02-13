@@ -1,4 +1,9 @@
 import pytest
+from selenium.webdriver.chrome.service import Service
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
+from selenium.webdriver.common.action_chains import ActionChains
 from lib.webUI import LoginAndCheck
 
 class Test_登录:
@@ -26,3 +31,4 @@ class Test_登录:
     def test_UI_0006(self):
         popText = LoginAndCheck('ad', '12gfdg')
         assert popText == '用户名或密码不正确'
+

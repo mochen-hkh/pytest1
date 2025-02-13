@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2e7229-308f-4565-bee2-1a1e93cf8085" name="更改" comment="11">
-      <change afterPath="$PROJECT_DIR$/cases/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/webUI.py" afterDir="false" />
+    <list default="true" id="1c2e7229-308f-4565-bee2-1a1e93cf8085" name="更改" comment="1.1">
+      <change afterPath="$PROJECT_DIR$/cases/test_fit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cfg/cfg_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/webUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webUI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +42,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python 测试.Python 测试 (test_fit.py 内).executor": "Run",
     "Python 测试.Python 测试 (test_login.py 内).executor": "Debug",
+    "Python 测试.Python 测试 (test_passward_display.py 内).executor": "Run",
+    "Python 测试.test.test_example 的 Python 测试.executor": "Run",
     "Python 测试.test_login.Test_登录 的 Python 测试.executor": "Run",
     "Python 测试.test_login.Test_登录.test_UI_0001 的 Python 测试.executor": "Run",
     "Python 测试.test_login.Test_登录.test_UI_0002 的 Python 测试.executor": "Run",
+    "Python 测试.test_login.Test_登录.test_UI_0005 的 Python 测试.executor": "Run",
+    "Python 测试.test_login.Test_登录.test_UI_0006 的 Python 测试.executor": "Run",
+    "Python 测试.test_passward_display.test_example 的 Python 测试.executor": "Run",
     "Python.test.executor": "Run",
     "Python.webUI.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -53,28 +62,6 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="webUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="first_pytest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/webUI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_login.Test_登录 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="first_pytest" />
       <option name="ENV_FILES" value="" />
@@ -90,7 +77,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_login.Test_登录.test_UI_0001 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test_login.Test_登录.test_UI_0005 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="first_pytest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,11 +88,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.Test_登录.test_UI_0001&quot;" />
+      <option name="_new_target" value="&quot;test_login.Test_登录.test_UI_0005&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_login.Test_登录.test_UI_0002 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test_login.Test_登录.test_UI_0006 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="first_pytest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,16 +103,47 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.Test_登录.test_UI_0002&quot;" />
+      <option name="_new_target" value="&quot;test_login.Test_登录.test_UI_0006&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_passward_display.test_example 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="first_pytest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_passward_display.test_example&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.test_example 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="first_pytest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_example&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.webUI" />
+        <item itemvalue="Python 测试.test_login.Test_登录.test_UI_0006 的 Python 测试" />
+        <item itemvalue="Python 测试.test_login.Test_登录.test_UI_0005 的 Python 测试" />
+        <item itemvalue="Python 测试.test.test_example 的 Python 测试" />
+        <item itemvalue="Python 测试.test_passward_display.test_example 的 Python 测试" />
         <item itemvalue="Python 测试.test_login.Test_登录 的 Python 测试" />
-        <item itemvalue="Python 测试.test_login.Test_登录.test_UI_0002 的 Python 测试" />
-        <item itemvalue="Python 测试.test_login.Test_登录.test_UI_0001 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>
@@ -153,8 +171,19 @@
       <option name="project" value="LOCAL" />
       <updated>1739327637481</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.1">
+      <option name="closed" value="true" />
+      <created>1739354578218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739354578218</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -181,6 +210,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11" />
-    <option name="LAST_COMMIT_MESSAGE" value="11" />
+    <MESSAGE value="1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
   </component>
 </project>
