@@ -36,7 +36,7 @@ from cfg.cfg_1 import WEB_ADDRESS
 #
 # wd.quit()
 class Trww:
-    def _init__(self):
+    def __init__(self):
 
         self.wd = webdriver.Chrome(
             service=Service('F:/py脚本/pythonProject/chromedriver-win64/chromedriver-win64/chromedriver.exe'))
@@ -46,8 +46,8 @@ class Trww:
 
         self.wd.get(WEB_ADDRESS)
         self.wd.maximize_window()
-        self.wd.find_element(By.XPATH,'//*[@id="uiSelect"]/span').click()
-        self.wd.find_element(By.XPATH,'//*[@id="uiSelect"]/div/div/ul/li[1]').click()
+        # self.wd.find_element(By.XPATH,'//*[@id="uiSelect"]/span').click()
+        # self.wd.find_element(By.XPATH,'//*[@id="uiSelect"]/div/div/ul/li[1]').click()
         time.sleep(1)
         if username is not None:
             self.wd.find_element(By.XPATH,'//*[@id="userName"]').send_keys(username)
@@ -55,12 +55,9 @@ class Trww:
             self.wd.find_element(By.XPATH, '//*[@id="pwd"]').send_keys(password)
         self.wd.find_element(By.XPATH, '//*[@id="loginDlg"]/div[5]/button').click()
 
-
-
-
     def changeIP(self,ipv4):
 
-        self.wd.find_element(By.XPATH, '//*[@id="loginDlg"]/div[5]/button').click()
+        # self.wd.find_element(By.XPATH, '//*[@id="loginDlg"]/div[5]/button').click()
         time.sleep(2)
         self.wd.find_element(By.XPATH, '//*[@id="options"]/a').click()
         time.sleep(1)
@@ -72,9 +69,6 @@ class Trww:
         self.wd.find_element(By.XPATH, '//*[@id="ipTest"]').click()
         time.sleep(12)
         text = self.wd.find_element(By.XPATH, '//*[@id="alertBlock"]/div').text
-
-
-
-        self.wd.quit()
+        # self.wd.quit()
         return text
-Trww = Trww()
+t = Trww()

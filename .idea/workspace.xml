@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2e7229-308f-4565-bee2-1a1e93cf8085" name="更改" comment="1.2">
-      <change afterPath="$PROJECT_DIR$/cfg/try_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ggg.py" afterDir="false" />
+    <list default="true" id="1c2e7229-308f-4565-bee2-1a1e93cf8085" name="更改" comment="1.3">
+      <change afterPath="$PROJECT_DIR$/cases/testIP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/test_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/test_fit.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/test_fit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfg/cfg_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfg/cfg_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ggg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/IP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +42,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python 测试.Python 测试 (ggg.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_email.py 内).executor": "Run",
     "Python 测试.Python 测试 (test_fit.py 内).executor": "Run",
     "Python 测试.Python 测试 (test_login.py 内).executor": "Debug",
     "Python 测试.Python 测试 (test_passward_display.py 内).executor": "Run",
     "Python 测试.Python 测试 (try.py 内).executor": "Run",
+    "Python 测试.ggg.test_testIP 的 Python 测试.executor": "Run",
     "Python 测试.ggg.test_testIP_001 的 Python 测试.executor": "Run",
     "Python 测试.test.test_example 的 Python 测试.executor": "Run",
+    "Python 测试.test_email.test_email001 的 Python 测试.executor": "Run",
     "Python 测试.test_fit.test_testIP 的 Python 测试.executor": "Run",
     "Python 测试.test_login.Test_登录 的 Python 测试.executor": "Run",
     "Python 测试.test_login.Test_登录.test_UI_0001 的 Python 测试.executor": "Run",
@@ -54,6 +59,7 @@
     "Python 测试.test_login.Test_登录.test_UI_0005 的 Python 测试.executor": "Run",
     "Python 测试.test_login.Test_登录.test_UI_0006 的 Python 测试.executor": "Run",
     "Python 测试.test_passward_display.test_example 的 Python 测试.executor": "Run",
+    "Python.email.executor": "Debug",
     "Python.test.executor": "Run",
     "Python.try.executor": "Run",
     "Python.webUI.executor": "Run",
@@ -64,8 +70,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python 测试.ggg.test_testIP_001 的 Python 测试">
-    <configuration name="ggg.test_testIP_001 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\py脚本\pythonProject\cases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python 测试.test_email.test_email001 的 Python 测试">
+    <configuration name="cases.ggg 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="first_pytest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +87,37 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ggg.test_testIP_001&quot;" />
+      <option name="_new_target" value="&quot;cases.ggg&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cases.testIP 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="first_pytest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;cases.testIP&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_email.test_email001 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="first_pytest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_email.test_email001&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -125,28 +166,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test.test_example 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="first_pytest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_example&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python 测试.ggg.test_testIP_001 的 Python 测试" />
+        <item itemvalue="Python 测试.test_email.test_email001 的 Python 测试" />
+        <item itemvalue="Python 测试.cases.testIP 的 Python 测试" />
+        <item itemvalue="Python 测试.cases.ggg 的 Python 测试" />
         <item itemvalue="Python 测试.test_fit.test_testIP 的 Python 测试" />
         <item itemvalue="Python 测试.test_login.Test_登录.test_UI_0006 的 Python 测试" />
-        <item itemvalue="Python 测试.test_login.Test_登录.test_UI_0005 的 Python 测试" />
-        <item itemvalue="Python 测试.test.test_example 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739441137108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.3">
+      <option name="closed" value="true" />
+      <created>1739612139579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739612139579</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -223,6 +257,23 @@
     <MESSAGE value="11" />
     <MESSAGE value="1.1" />
     <MESSAGE value="1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2" />
+    <MESSAGE value="1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cases/test_email.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cases/test_email.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
